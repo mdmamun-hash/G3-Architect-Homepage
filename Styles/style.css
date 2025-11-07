@@ -282,3 +282,128 @@ footer{
     border-radius: 8px;
     background: rgba(255, 244, 231, 1);
 }
+
+@media screen and (max-width:576px) {
+    header{
+        width: 100%;
+        height: auto;
+        margin-bottom: 26px;
+    }
+    .header-content{
+       width: 90%;
+       gap: 8vh;
+       margin: 6vh auto;
+    }
+    .nav-bar{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
+    .banner-text{
+        width: auto;
+        height: auto;
+    }
+
+    .quick-features{
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 22px;
+        
+    }
+    .quick-features-imgs{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 7px;
+    }
+
+    .lovely-features{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+    }
+    .lovely-features-img{
+        width: 100%;
+        height: 80%;
+    }
+    .lovely-features-badge{
+        text-align: center;
+    }
+    .exp-badge{
+    width: 180px;
+    height: 64px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0;
+    border-radius: 8px;
+    background: rgba(255, 144, 14, 1);
+    margin: -64px auto 0;
+    border-style: none;
+    text-align: center;
+    }
+    #_10year{
+    font-size: 1.25rem;
+    font-weight: 600;
+    }
+    #_experience{
+    font-size: 1.25rem;
+    font-weight: 600;    
+    }
+
+    .some-facts{
+    width:90% ; 
+    }
+    .some-facts-description{
+    width: auto;
+    margin-bottom: 60px;
+    }
+    .fact-boxs{
+    flex-direction: column;
+    gap: 60px;
+    }
+
+    .sponsors{
+      width: auto;  
+    }
+
+    .sponsors-imgs{
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .footer-content{
+        width: 80%;
+        margin:50px 0;
+    }
+    .copyright-act{
+    display: block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide{
+    display: none;
+}
